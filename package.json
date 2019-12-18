@@ -4,11 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "prepare": "patch-package"
   },
   "author": "Gabriel Montes",
   "license": "MIT",
   "dependencies": {
-    "web3": "^1.0.0-beta.37"
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http-proxy": "^1.18.0",
+    "http-proxy-middleware": "^0.20.0",
+    "https-proxy": "0.0.2",
+    "https-proxy-agent": "^3.0.1",
+    "open": "^7.0.0",
+    "url": "^0.11.0",
+    "web3": "^1.2.4",
+    "ws": "^7.2.0",
+    "websocket-reconnector": "^1.1.1",
+    "patch-package": "^5.1.2"
   }
 }
